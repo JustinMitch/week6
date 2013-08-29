@@ -1,0 +1,88 @@
+input
+{
+padding:0.5em;
+border-bottom:0.2em solid red;
+border-radius:0.5em;
+font-size: 120%;
+border: 2px solid red;
+
+}
+
+.contentbox {
+			
+            border-radius : 2em;
+            border: 0.3em solid #000;
+            padding : 1.0em;
+			background-color:grey;
+            width:40%;
+		
+}
+.labels
+{
+width:100px;
+display:inline-block;
+}
+.label
+{
+width:100px;
+}
+
+textarea
+{
+width: 250px;
+height:100px;
+font-size: 120%;
+border: 2px solid red;
+}
+
+textarea:hover 
+{
+		background-color: #e9f6fd;
+}
+	
+
+label {
+		font-weight: bold;
+		font-size: 130%;
+	}
+	
+	
+	
+	
+	
+	input[type=button] {
+		border: 1px solid #6E329D;
+		border-radius : 25px;
+		color: #fff;
+		text-decoration: none;
+		padding: 0.2em 0.5em;
+		margin: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
+		
+		background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C */
+	}
+	
+	
+	
+	input[type=button]:hover {
+		background: linear-gradient(to right, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C */	
+	}
+	
+	input[type=text]:hover {
+		background-color: #e9f6fd;
+	}
+	
+	
+	.error {
+		color: red;
+	}
+	
+	input[type=text].bad {
+		border: 2px solid red;
+	}
+	
+	input[type=text].good {
+		border: 2px solid green;
+	}
+
